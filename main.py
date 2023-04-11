@@ -9,8 +9,6 @@ def fizzbuzz(nums):
             s += 'Fizz'
         if x % 5 == 0:
             s += 'Buzz'
-        if s == '':
-            s += str(x)
         print(s)
 
 if __name__ == '__main__':
