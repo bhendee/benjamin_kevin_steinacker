@@ -4,13 +4,7 @@ def benjamin(kevin_steinacker):
 
 def fizzbuzz(nums):
     for x in nums:
-        s = ''
-        if x % 5 == 0:
-            s += 'Fizz'
-        if x % 3 == 0:
-            s += 'Buzz'
-        if s != '':
-            print(s)
+        print((x%5 == 0) * 'Fizz' + (x%3 == 0) * 'Buzz')
 
 if __name__ == '__main__':
     x = (3 + 2 - 10) / 15
