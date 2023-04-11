@@ -5,9 +5,9 @@ def benjamin(kevin_steinacker):
 def fizzbuzz(nums):
     for x in nums:
         s = ''
-        if x % 3 == 0:
-            s += 'Fizz'
         if x % 5 == 0:
+            s += 'Fizz'
+        if x % 3 == 0:
             s += 'Buzz'
         if s != '':
             print(s)
