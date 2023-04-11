@@ -2,6 +2,17 @@ def benjamin(kevin_steinacker):
     print(f'benjamin {kevin_steinacker}')
     # print('OH BROTHER THIS GUY STINKS!!')
 
+def fizzbuzz(nums):
+    for x in nums:
+        s = ''
+        if x % 3 == 0:
+            s += 'Fizz'
+        if x % 5 == 0:
+            s += 'Buzz'
+        if s == '':
+            s += str(x)
+        print(s)
+
 if __name__ == '__main__':
     x = (3 + 2 - 10) / 15
     var = 'hello'
@@ -14,3 +25,4 @@ if __name__ == '__main__':
     print(fun_string[4])
     print(fun_string[4:6])
     fun_string = fun_string[:-1] + '10'
+    fizzbuzz(list(range(30)))
